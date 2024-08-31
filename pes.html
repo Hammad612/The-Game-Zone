@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add to Cart Page</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles can be added here */
+  </style>
+</head>
+<style>
+    body{
+        background-image: url(images/controller.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-weight: bolder;
+    }
+</style>
+<body>
+
+  <a href="index.html" style="font-size: medium; text-decoration: none; color: white;"> < Go Back </a>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/pes22.webp" class="img-fluid" alt="Game Image" width="500px" height="300px">
+    </div>
+    <div class="col-md-6">
+      <h2> <strong>PES 4</strong></h2>
+      <p>Buy And Enjoy.</p>
+      <p>Price: $25.99</p>
+      <form>
+        <div class="form-group">
+          <label for="quantity">Quantity:</label>
+          <input type="number" class="form-control" id="quantity" value="1">
+        </div>
+        <button type="submit" class="btn btn-primary">Add to Cart</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
